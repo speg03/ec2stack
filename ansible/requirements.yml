@@ -1,0 +1,3 @@
+---
+- src: https://github.com/speg03/ansible-role-ec2stack
+  name: speg03.ec2stack
