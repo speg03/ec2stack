@@ -2,5 +2,5 @@
 - name: Run ec2stack
   hosts: localhost
   gather_facts: no
-  tasks:
-    - ping:
+  roles:
+    - speg03.ec2stack
