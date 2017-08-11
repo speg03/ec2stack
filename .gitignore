@@ -1,2 +1,3 @@
 .python-version
 ansible/roles/
+ansible/states/
