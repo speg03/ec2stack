@@ -1,0 +1,14 @@
+---
+- name: Provision the instance
+  hosts: localhost
+  roles:
+    - speg03.ec2stack
+
+  vars:
+    ec2stack_env:
+      image: amazon
+      instance_type: t2.micro
+      key_name: ec2stack
+      vpc: default
+      groups:
+        - ssh
